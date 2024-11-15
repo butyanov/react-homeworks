@@ -1,0 +1,91 @@
+Index: .idea/.idea.react-homeworks.dir/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"63f375ac-8b3d-4d2f-9e49-e180b7df2c30\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/.idea.react-homeworks.dir/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2024__13_49__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/.idea.react-homeworks.dir/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/.idea.react-homeworks.dir/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/hw-3/app/(tabs)/index.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/hw-3/app/(tabs)/index.tsx\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"TypeScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;butyanov&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/butyanov/react-homeworks&quot;,\n    &quot;accountId&quot;: &quot;ed15a41e-cad8-4eea-b6bb-3c80a42ac48c&quot;\n  },\n  &quot;recentNewPullRequestHead&quot;: {\n    &quot;server&quot;: {\n      &quot;useHttp&quot;: false,\n      &quot;host&quot;: &quot;github.com&quot;,\n      &quot;port&quot;: null,\n      &quot;suffix&quot;: null\n    },\n    &quot;owner&quot;: &quot;butyanov&quot;,\n    &quot;repository&quot;: &quot;react-homeworks&quot;\n  }\n}</component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/hw-4/repositories/CardsRepository.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n  </component>\n  <component name=\"MetaFilesCheckinStateConfiguration\" checkMetaFiles=\"true\" />\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 0\n}</component>\n  <component name=\"ProjectId\" id=\"2msWbdyZfzH6SPXQsfau2s1OByR\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"hw-3\",\n    \"last_opened_file_path\": \"/Users/artembutanov/RiderProjects/react-homeworks\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"npm.ios (1).executor\": \"Run\",\n    \"npm.ios (2).executor\": \"Run\",\n    \"npm.ios.executor\": \"Run\",\n    \"ts.external.directory.path\": \"/Users/artembutanov/RiderProjects/react-homeworks/hw-3/node_modules/typescript/lib\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  },\n  \"keyToStringList\": {\n    \"rider.external.source.directories\": [\n      \"/Users/artembutanov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache\",\n      \"/Users/artembutanov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache\",\n      \"/Users/artembutanov/Library/Application Support/Symbols/src\"\n    ]\n  }\n}]]></component>\n  <component name=\"RunManager\" selected=\"npm.ios (2)\">\n    <configuration name=\"ios (1)\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\n      <package-json value=\"$PROJECT_DIR$/hw-4/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"ios\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"ios (2)\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\n      <package-json value=\"$PROJECT_DIR$/hw-5/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"ios\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"ios\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\n      <package-json value=\"$PROJECT_DIR$/hw-3/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"ios\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"npm.ios (2)\" />\n        <item itemvalue=\"npm.ios (1)\" />\n        <item itemvalue=\"npm.ios\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"63f375ac-8b3d-4d2f-9e49-e180b7df2c30\" name=\"Changes\" comment=\"\" />\n      <created>1727865836213</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1727865836213</updated>\n      <workItem from=\"1727865837334\" duration=\"97000\" />\n      <workItem from=\"1727865984181\" duration=\"2000\" />\n      <workItem from=\"1727866454162\" duration=\"233000\" />\n      <workItem from=\"1727866689930\" duration=\"805000\" />\n      <workItem from=\"1729594218174\" duration=\"22000\" />\n      <workItem from=\"1729594247389\" duration=\"9125000\" />\n      <workItem from=\"1730461587342\" duration=\"10391000\" />\n      <workItem from=\"1731672294675\" duration=\"3090000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"add hw-1\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1727866613921</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1727866613921</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"hw-3 done\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1729597723366</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1729597723366</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"UnityCheckinConfiguration\" checkUnsavedScenes=\"true\" />\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"false\" />\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n    <MESSAGE value=\"add hw-1\" />\n    <MESSAGE value=\"hw-3 done\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"hw-3 done\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.react-homeworks.dir/.idea/workspace.xml b/.idea/.idea.react-homeworks.dir/.idea/workspace.xml
+--- a/.idea/.idea.react-homeworks.dir/.idea/workspace.xml	
++++ b/.idea/.idea.react-homeworks.dir/.idea/workspace.xml	
+@@ -4,10 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="63f375ac-8b3d-4d2f-9e49-e180b7df2c30" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/.idea.react-homeworks.dir/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2024__13_49__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/.idea.react-homeworks.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.react-homeworks.dir/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/hw-3/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hw-3/app/(tabs)/index.tsx" afterDir="false" />
++    <list default="true" id="63f375ac-8b3d-4d2f-9e49-e180b7df2c30" name="Changes" comment="add hw-4 &amp;&amp; hw-5">
++      <change beforePath="$PROJECT_DIR$/hw-5/clients/axios-client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hw-5/clients/axios-client.ts" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -24,7 +22,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
++        <entry key="$PROJECT_DIR$" value="hw-3" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -68,7 +66,7 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "hw-3",
++    "git-widget-placeholder": "#2 on hw-5",
+     "last_opened_file_path": "/Users/artembutanov/RiderProjects/react-homeworks",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+@@ -143,7 +141,7 @@
+       <workItem from="1729594218174" duration="22000" />
+       <workItem from="1729594247389" duration="9125000" />
+       <workItem from="1730461587342" duration="10391000" />
+-      <workItem from="1731672294675" duration="3090000" />
++      <workItem from="1731672294675" duration="3433000" />
+     </task>
+     <task id="LOCAL-00001" summary="add hw-1">
+       <option name="closed" value="true" />
+@@ -161,7 +159,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1729597723366</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="add hw-4 &amp;&amp; hw-5">
++      <option name="closed" value="true" />
++      <created>1731675519242</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1731675519242</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -173,6 +179,7 @@
+     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+     <MESSAGE value="add hw-1" />
+     <MESSAGE value="hw-3 done" />
+-    <option name="LAST_COMMIT_MESSAGE" value="hw-3 done" />
++    <MESSAGE value="add hw-4 &amp;&amp; hw-5" />
++    <option name="LAST_COMMIT_MESSAGE" value="add hw-4 &amp;&amp; hw-5" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: hw-5/clients/axios-client.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import axios, {AxiosRequestConfig} from 'axios';\nimport {Platform} from \"react-native\";\n\nexport default class AxiosClient {\n    api; \n\n    constructor() {\n        this.api = axios.create();\n        this.api.defaults.baseURL = this.getDefaultBaseUrl();\n        this.api.defaults.headers.common['App-Platform'] = Platform.OS;\n        this.api.defaults.headers.common['Content-Type'] = 'application/json';\n    }\n\n    getDefaultBaseUrl = () => {\n        return 'https://jsonplaceholder.typicode.com';\n    };\n\n    get = < T extends {}>(config: any) => {\n        return this.api.get<T>(config.url, config.config);\n    };\n\n    post = < T extends {}>(config: any) => {\n        return this.api.post<T>(config.url, config.data, config.config);\n    };\n\n    put = < T extends {}>(config: any) => {\n        return this.api.put<T>(config.url, config.data, config.config);\n    };\n\n    delete = < T extends {}>(config: any) => {\n        return this.api.delete<T>(config.url, config.config);\n    };\n}
+===================================================================
+diff --git a/hw-5/clients/axios-client.ts b/hw-5/clients/axios-client.ts
+--- a/hw-5/clients/axios-client.ts	
++++ b/hw-5/clients/axios-client.ts	
+@@ -1,4 +1,4 @@
+-import axios, {AxiosRequestConfig} from 'axios';
++import axios from 'axios';
+ import {Platform} from "react-native";
+ 
+ export default class AxiosClient {
