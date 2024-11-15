@@ -63,8 +63,7 @@ const TabNavigation = () => {
                 } else if (route.name === 'Settings') {
                     iconName = focused ? 'settings' : 'settings-outline';
                 }
-
-                // Возвращаем иконку для каждого таба
+                
                 return <Ionicons name={iconName} size={size} color={color} />;
             },
             tabBarActiveTintColor: 'tomato',
@@ -86,9 +85,7 @@ const HomeStack = () => {
                 name="Home"
                 component={HomeScreen}
                 options={({ navigation }) => ({
-                    // Иконка в центре
                     headerTitle: () => <Ionicons name="home" size={24} color="black" />,
-                    // Кнопка "О приложении" справа
                     headerRight: () => (
                         <Button
                             onPress={() => navigation.navigate('HomeAbout')}
