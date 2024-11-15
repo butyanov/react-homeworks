@@ -1,6 +1,6 @@
-import { v4 as uuid } from 'uuid';
+import UUID from 'react-native-uuid';
 export default class Card {
-    id: string = uuid()
+    id: string = UUID.v4()
     content: string;
     createdAt: Date;
     
