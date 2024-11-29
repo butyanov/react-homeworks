@@ -1,14 +1,23 @@
-import AxiosClient from "@/clients/axios-client";
+import LocalClient from '@/clients/local-client';
 
-export default class ItemRepository { 
-    apiClient;
+class ApiRepository {
+    localClient: LocalClient;
+
     constructor() {
-        this.apiClient = new AxiosClient();
+        this.localClient = new LocalClient();
     }
-    getItems = () => {
-        return this.apiClient.get({ url: '/posts' });
-    };
-    changeItem = (item: any) => { return this.apiClient.post({
-        url: '/posts/1',
-        data: item });
-    }; }
+
+    async fetchAndStoreData(url: string) {
+        await this.localClient.fetchData(url);
+    }
+
+    async getStoredData(url: string) {
+        return await this.localClient.getData(url);
+    }
+
+    async clearStoredData(url: string) {
+        await this.localClient.clearData(url);
+    }
+}
+
+export default ApiRepository;

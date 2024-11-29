@@ -1,5 +1,5 @@
 import { makeAutoObservable } from 'mobx';
-import ItemService from "@/services/items-service";
+import ApiRepository from '@/repositories/api-repository';
 
 interface Item {
     id: number;
@@ -7,36 +7,50 @@ interface Item {
 }
 
 class ItemStore {
-    items : Item[] = [];
+    items: Item[] = [];
     isLoading = false;
-    itemService;
+    apiRepository: ApiRepository;
+    url = '/items';
 
     constructor() {
         makeAutoObservable(this);
-        this.itemService = new ItemService();
+        this.apiRepository = new ApiRepository();
     }
 
-    setItems = (items : any) => {
+    setItems = (items: Item[]) => {
         this.items = items;
     };
 
-    setIsLoading = (status : any) => {
+    setIsLoading = (status: boolean) => {
         this.isLoading = status;
     };
 
-    getItems = () => {
+    fetchItems = async () => {
         this.setIsLoading(true);
-        this.itemService
-            .getItems()
-            .then((result: Item[]) => {
-                this.setItems(result);
-            })
-            .catch((error) => {
-                console.error(error);
-            })
-            .finally(() => {
-                this.setIsLoading(false);
-            });
+        try {
+            // Получение и сохранение данных из API в локальное хранилище
+            await this.apiRepository.fetchAndStoreData(this.url);
+
+            // Получение сохраненных данных из локального хранилища
+            const storedItems = await this.apiRepository.getStoredData(this.url);
+            if (storedItems) {
+                this.setItems(storedItems);
+            }
+        } catch (error) {
+            console.error('Error fetching items:', error);
+        } finally {
+            this.setIsLoading(false);
+        }
+    };
+
+    clearItems = async () => {
+        try {
+            // Удаление данных из локального хранилища
+            await this.apiRepository.clearStoredData(this.url);
+            this.setItems([]);
+        } catch (error) {
+            console.error('Error clearing items:', error);
+        }
     };
 }
 
