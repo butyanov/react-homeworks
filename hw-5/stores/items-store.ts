@@ -10,7 +10,7 @@ class ItemStore {
     items: Item[] = [];
     isLoading = false;
     apiRepository: ApiRepository;
-    url = '/items';
+    url = '/posts';
 
     constructor() {
         makeAutoObservable(this);
@@ -28,10 +28,8 @@ class ItemStore {
     fetchItems = async () => {
         this.setIsLoading(true);
         try {
-            // Получение и сохранение данных из API в локальное хранилище
             await this.apiRepository.fetchAndStoreData(this.url);
-
-            // Получение сохраненных данных из локального хранилища
+            
             const storedItems = await this.apiRepository.getStoredData(this.url);
             if (storedItems) {
                 this.setItems(storedItems);
@@ -45,7 +43,6 @@ class ItemStore {
 
     clearItems = async () => {
         try {
-            // Удаление данных из локального хранилища
             await this.apiRepository.clearStoredData(this.url);
             this.setItems([]);
         } catch (error) {

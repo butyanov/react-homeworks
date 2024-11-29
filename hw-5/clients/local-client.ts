@@ -10,11 +10,9 @@ class LocalClient {
 
     async fetchData(url: string) {
         try {
-            // Получаем данные из удаленного API
             const response = await this.apiClient.get({ url });
             const data = response.data;
-
-            // Сохраняем данные в AsyncStorage, используя уникальное имя url как ключ
+            
             await AsyncStorage.setItem(url, JSON.stringify(data));
         } catch (error) {
             console.error('Error fetching data:', error);
