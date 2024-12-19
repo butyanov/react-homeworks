@@ -1,9 +1,9 @@
 import {SafeAreaView, StyleSheet, Text, View} from "react-native";
-import {useTheme} from "./src/styles/useTheme.ts";
+import {useTheme} from "./src/styles/theming/useTheme";
 import {observer} from "mobx-react";
-import {IColors} from "./src/styles/ThemeTypes.ts";
-import {ThemeProvider} from "./src/styles/ThemeProvider.tsx";
-import ThemeToggle from "./components/ThemeToggle.tsx";
+import {IColors} from "./src/styles/theming/ThemeTypes";
+import {ThemeProvider} from "./src/styles/theming/ThemeProvider";
+import ThemeToggle from "./src/components/ThemeToggle";
 
 const MyComponent = observer(() => {
     const {Colors} = useTheme();

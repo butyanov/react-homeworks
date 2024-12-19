@@ -1,7 +1,7 @@
-import {ColorsKeys, IColors, IThemeContext} from "./ThemeTypes.ts";
+import {ColorsKeys, IColors, IThemeContext} from "./ThemeTypes";
 import {useContext, useMemo} from "react";
-import {Colors} from "./Colors.ts";
-import {ThemeContext} from "./ThemeProvider.tsx";
+import {Colors} from "../Colors";
+import {ThemeContext} from "./ThemeProvider";
 
 export const useTheme = (): IThemeContext & {
     Colors: IColors;

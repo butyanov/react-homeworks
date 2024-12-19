@@ -1,6 +1,6 @@
 import React, {createContext, useEffect, useState} from "react";
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {IThemeContext, ThemeType, ThemeTypes} from "./ThemeTypes.ts";
+import {IThemeContext, ThemeType, ThemeTypes} from "./ThemeTypes";
 import {Appearance, NativeEventSubscription} from "react-native";
 
 const THEME_KEY = '@THEME'; // для хранения в локальном хранилище

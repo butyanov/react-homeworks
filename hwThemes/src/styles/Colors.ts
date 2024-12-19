@@ -1,4 +1,4 @@
-import {ColorsKeys, IColorsValues} from "./ThemeTypes.ts";
+import {ColorsKeys, IColorsValues} from "./theming/ThemeTypes";
 
 export const Colors: Record<ColorsKeys, IColorsValues> = {
     overlay: {
