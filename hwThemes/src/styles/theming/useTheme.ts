@@ -2,6 +2,7 @@ import {ColorsKeys, IColors, IThemeContext} from "./ThemeTypes";
 import {useContext, useMemo} from "react";
 import {Colors} from "../Colors";
 import {ThemeContext} from "./ThemeProvider";
+import {Alert} from "react-native";
 
 export const useTheme = (): IThemeContext & {
     Colors: IColors;

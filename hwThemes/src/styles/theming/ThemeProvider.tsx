@@ -11,7 +11,7 @@ interface IProps {
 
 export const ThemeProvider: React.FC<IProps> = ({children}) => {
     const [theme, setTheme] = useState<ThemeType>(ThemeTypes.DARK);
-    const [selectTheme, setSelectTheme] = useState<ThemeTypes>(ThemeTypes.DARK);
+    const [selectTheme, setSelectTheme] = useState<ThemeTypes>(ThemeTypes.LIGHT);
     useEffect(() => {
         (async () => {
             const savedTheme = (await AsyncStorage.getItem(THEME_KEY)) as ThemeTypes;
