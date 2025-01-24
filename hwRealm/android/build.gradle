@@ -1,0 +1,28 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 26 // support only android 8+ devices
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "26.1.10909125"
+        kotlinVersion = "1.9.24"
+        firebaseIidVersion = "19.0.1" // react-native-device-info default: "19.0.1"
+    }
+    repositories {
+        google()
+        mavenCentral()
+
+        // https://github.com/ivpusic/react-native-image-crop-picker
+        maven { url 'https://maven.google.com' }
+        maven { url "https://www.jitpack.io" }
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"

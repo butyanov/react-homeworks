@@ -1,0 +1,29 @@
+// prettier-ignore
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Modules */
+    "types": [
+      "react-native"
+    ],
+    /* Specify type package names to be included without being referenced in a source file. */
+
+    // these 3 fields are used to override the original and resolve the issue with ECMAScript modules
+    // "module": "commonjs",              /* Specify what module code is generated. */
+    // "moduleResolution": "node",        /* Specify how TypeScript looks up a file from a given module specifier. */
+    // "customConditions": null,          /* Specify a list of additional conditions that should succeed when TypeScript resolves from an exports or imports field of a package.json. */
+
+    /* Experimental Options */
+    "experimentalDecorators": true
+    /* Enables experimental support for ES7 decorators. */
+  },
+  "exclude": [
+    "**/Pods/**",
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "extends": "@react-native/typescript-config/tsconfig.json"
+}

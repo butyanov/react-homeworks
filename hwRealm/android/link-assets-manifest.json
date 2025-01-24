@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/FluentSystemIcons-Filled.json",
+      "sha1": "8effa48857a8117c21b3edcf551129638037058e"
+    },
+    {
+      "path": "src/assets/fonts/FluentSystemIcons-Filled.ttf",
+      "sha1": "8c75f265b0da78dcdeda5f787c0a743e9b52e18b"
+    },
+    {
+      "path": "src/assets/fonts/FluentSystemIcons-Regular.json",
+      "sha1": "d51fe43b78cd7f3a395610536482db69ed70a17c"
+    },
+    {
+      "path": "src/assets/fonts/FluentSystemIcons-Regular.ttf",
+      "sha1": "b9216315956c9feb306d2cc0b648e30dabeb223d"
+    }
+  ]
+}
